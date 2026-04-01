@@ -1,4 +1,5 @@
-🗄️ ArquiveX – Sistema de Gestão de Arquivos
+#  ArquiveX
+
 
 ## Descrição
 
