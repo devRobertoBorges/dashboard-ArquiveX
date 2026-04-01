@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArquiveX - Painel</title>
+    <link rel="stylesheet" href="stylePainel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="painelScript.js"></script>
+</head>
+<body>
+    <header>
+        <span class="menu-btn" onclick="toggleMenu()">&#9776;</span>
+
+        <div class="logo" img="logo">
+            <img src="public/img/logoArquiveX.png" alt="Logo">
+        </div>
+    </header>
+
+    <div id="overlay" onclick="toggleMenu()"></div>
+
+    <nav class="side-menu" id="sideMenu">
+
+        <a href="#">Cadastrar caixa</a>
+        <a href="#">Consultar caixa</a>
+
+        <div class="menu-divider"></div>
+        
+        <a href="#">Cadastrar documento</a>
+        <a href="#">Consultar documento</a>
+        
+        <a href="#" class="logout">Sair</a>
+    </nav>
+</body>
+</html>
